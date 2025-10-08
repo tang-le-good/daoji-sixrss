@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+    <node name ="xian_stewart_control_params_server" pkg="xian_stewart_control_param" type="xian_stewart_control_params_server" />
+    <node name ="joy_node" pkg="joy" type="joy_node" />
+    <node name ="xian_remote_controller" pkg="xian_stewart_control_pkg" type="xian_remote_controller" />
+    <node name ="xian_duoji_base_control" pkg="xian_stewart_control_pkg" type="xian_duoji_base_control.py" />
+
+    
+</launch> 
